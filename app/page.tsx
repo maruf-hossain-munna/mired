@@ -7,11 +7,13 @@ import Slider from "@/components/home/TextimonialCard";
 import Testimonials from "@/components/home/Testimonials";
 import Trust from "@/components/home/Trust";
 import DigitalSoluations from "@/components/home/digitalSoluations/DigitalSoluations";
+import RunningSlider from "@/components/common/RunningSlider";
 
 export default function Home() {
   return (
     <main>
       <HeroArea />
+      <RunningSlider />
       <ConsultationBookung />
       <DigitalSoluations />
       <Testimonials />

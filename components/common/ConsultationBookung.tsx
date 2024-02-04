@@ -6,7 +6,7 @@ import Button from './button/Buttton';
 
 const ConsultationBookung = () => {
     return (
-        <div className='py-20'>
+        <div className='py-20 bg-[#F5F5F5]'>
             <Container>
                 <div className='flex flex-col lg:flex-row gap-12 lg:gap-20 items-center'>
                     <div className='w-full lg:w-2/5'>
