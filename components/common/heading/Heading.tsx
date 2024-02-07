@@ -8,7 +8,7 @@ interface HeadingProps {
 const Heading : React.FC <HeadingProps>= ( {title, center, custom, end}) => {
     return (
         <div className={`${center ? 'text-center' : 'text-start'} ${end ? 'text-end' : ''}`}>
-            <h2 className={`font-clash ${custom ? custom : ''}`}> {title} </h2>
+            <h2 className={`font-clash_display ${custom ? custom : ''}`}> {title} </h2>
         </div>
     );
 };

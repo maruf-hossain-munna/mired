@@ -8,7 +8,7 @@ const ConsultationBookung = () => {
     return (
         <div className='py-20 bg-[#F5F5F5]'>
             <Container>
-                <div className='flex flex-col lg:flex-row gap-12 lg:gap-20 items-center'>
+                <div className='flex flex-col lg:flex-row gap-12 lg:gap-20 items-center z-30'>
                     <div className='w-full lg:w-2/5'>
                         <Image
                             src='/images/two-lady.png'

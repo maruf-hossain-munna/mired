@@ -3,14 +3,14 @@ import Heading from '@/components/common/heading/Heading';
 import Link from 'next/link';
 import React from 'react';
 
-const ServicesHeroArea = () => {
+const ContactHero = () => {
     return (
         <div className="relative bg-[#F4F2F6] lg:bg-[url('/images/home-bg.png')] min-h-screen overflow-hidden flex items-center bg-cover">
             <Container>
                 <div>
                     <div className='max-w-[1030px] mx-auto text-center'>
                         <Heading
-                            title="services"
+                            title="contact"
                             center
                             custom='uppercase text-[35px] md:text-[55px] lg:text-[68px] font-bold leading-tight'
                         />
@@ -22,7 +22,7 @@ const ServicesHeroArea = () => {
                                 <button className='uppercase text-white font-semibold border border-[#420FB0] bg-[#420FB0] px-7 py-3'> Home</button>
                             </Link>
                             <Link href='/services'>
-                                <button className='uppercase text-black font-semibold bg-white border border-[#420FB0] px-7 py-3'> Services</button>
+                                <button className='uppercase text-black font-semibold bg-white border border-[#420FB0] px-7 py-3'> Contact</button>
                             </Link>
                         </div>
                     </div>
@@ -37,4 +37,4 @@ const ServicesHeroArea = () => {
     );
 };
 
-export default ServicesHeroArea;
+export default ContactHero;

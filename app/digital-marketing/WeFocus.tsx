@@ -6,7 +6,7 @@ import ContentMarketing from './ContentMarketing';
 
 const WeFocus = () => {
     return (
-        <div className='pt-20 pb-10'>
+        <div className='pt-20 pb-10 bg-[#F4F2F6]'>
             <Container>
                 <div>
                     <div className='max-w-[650px]'>

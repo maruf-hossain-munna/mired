@@ -8,7 +8,7 @@ import EcommerceSolutions from './EcommerceSolutions';
 
 const WeFocusOfWeb = () => {
     return (
-        <div className='pt-20 pb-20'>
+        <div className='relative bg-[#F4F2F6] pt-20 pb-20 '>
             <Container>
                 <div>
                     <div className='max-w-[650px]'>
@@ -29,6 +29,8 @@ const WeFocusOfWeb = () => {
                     </div>
                 </div>
             </Container>
+
+        
         </div>
     );
 };

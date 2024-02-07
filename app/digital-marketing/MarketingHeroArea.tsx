@@ -7,9 +7,9 @@ import React from 'react';
 
 const MarketingHeroArea = () => {
     return (
-        <div className='border-b-[3px] border-black pt-20 pb-8'>
+        <div className="py-16 border-b-[3px] border-black relative bg-[#F4F2F6] lg:bg-[url('/images/home-bg.png')] min-h-screen overflow-hidden flex items-center bg-cover">
             <Container>
-                <div className='max-w-[1000px] mx-auto text-center'>
+                <div className='max-w-[1000px] mx-auto text-center z-30'>
                     <div className='flex justify-center'>
                         <Link href='/services'>
                             <button className='uppercase rounded-xl text-black font-semibold bg-white border border-[#420FB0] px-7 py-3'>
@@ -36,6 +36,10 @@ const MarketingHeroArea = () => {
                     />
                 </div>
             </Container>
+
+            <div className=" z-10 absolute  bottom-[-60%] left-[-30%] w-[350px] h-[150px] lg:w-[600px] lg:h-[600px] rounded-full  bg-pink-500 blur-[300px] opacity-100" />
+            <div className=" z-10 absolute  top-[-40%] right-[-30%] w-[350px] h-[150px] lg:w-[600px] lg:h-[600px] rounded-full  bg-pink-500 blur-[300px] opacity-100" />
+
 
         </div>
     );

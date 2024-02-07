@@ -12,21 +12,21 @@ const TestimonialCard = () => {
         {
             id: 1,
             comment: "Miranda and Edward are absolutely wonderful at what they do. I first came to Miranda earlier this year with a business plan, but little to no idea about how to create/cultivate an online presence. Miranda and Edward have turned my “idea” into a steady, growing business that continues to perform better each month. I love their creativity, go-getter attitudes, and dedication to providing a solid product. Can’t recommend them enough.",
-            userName: "-Jessica kaur",
+            userName: "Jessica kaur",
             userTitle: "Naina and Noor",
             userProfile: "/images/profileImg1.png"
         },
         {
             id: 2,
             comment: "Miranda and Edward are absolutely wonderful at what they do. I first came to Miranda earlier this year with a business plan, but little to no idea about how to create/cultivate an online presence. Miranda and Edward have turned my “idea” into a steady, growing business that continues to perform better each month. I love their creativity, go-getter attitudes, and dedication to providing a solid product. Can’t recommend them enough.",
-            userName: "-James Bond",
+            userName: "James Bond",
             userTitle: "Naina and Noor",
             userProfile: "/images/profileImg1.png"
         },
         {
             id: 3,
             comment: "Miranda and Edward are absolutely wonderful at what they do. I first came to Miranda earlier this year with a business plan, but little to no idea about how to create/cultivate an online presence. Miranda and Edward have turned my “idea” into a steady, growing business that continues to perform better each month. I love their creativity, go-getter attitudes, and dedication to providing a solid product. Can’t recommend them enough.",
-            userName: "-Alex Henry",
+            userName: "Alex Henry",
             userTitle: "Naina and Noor",
             userProfile: "/images/profileImg1.png"
         },
@@ -36,17 +36,7 @@ const TestimonialCard = () => {
     // The slider images array
     const prevSlider = () => setCurrentSlider((currentSlider) => (currentSlider === 0 ? currentSlider : currentSlider - 1));
     const nextSlider = () => setCurrentSlider((currentSlider) => (currentSlider === testimonials.length - 1 ? 0 : currentSlider + 1));
-    // if you don't want to change the slider automatically then you can just remove the useEffect
-    // useEffect(() => {
-    //     const intervalId = setInterval(() => {
-    //         nextSlider();
-    //     }, 30000);
-    //     return () => {
-    //         clearInterval(intervalId);
-    //     };
-    // }, [currentSlider]);
 
-    // const isSmallScreen = window.innerWidth <= 768;
     return (
         <>
             <div className="w-full  mx-auto flex flex-row items-center overflow-hidden gap-5 lg:gap-10 ">

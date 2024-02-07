@@ -7,12 +7,12 @@ import Ecommerce from './Ecommerce';
 
 const DigitalSoluations = () => {
     return (
-        <div className='pt-10'>
+        <div className='pt-20'>
             <div className='max-w-[1000px] mx-auto text-center pb-8'>
                 <Heading
                     title="Comprehensive Digital Solutions Tailored to Your Success"
                     center
-                    custom='uppercase text-[35px] md:text-[55px] lg:text-[64px] font-semibold leading-tight'
+                    custom='uppercase text-[35px] md:text-[55px] lg:text-[64px] font-bold leading-tight'
                 />
                 <p className='mt-4 text-sm md:text-[15px] lg:text-[16px]'>
                     Choose from our services to meet your business requirements:

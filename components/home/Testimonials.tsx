@@ -12,7 +12,7 @@ const Testimonials = () => {
                     <Heading
                         title="What Our Clients Say"
                         center
-                        custom='uppercase text-[35px] md:text-[43px] lg:text-[64px] font-semibold leading-none'
+                        custom='uppercase text-[35px] md:text-[43px] lg:text-[64px] font-bold leading-none'
                     />
                     <p className='text-center mt-2'>Testimonials that speak volumes</p>
                 </div>

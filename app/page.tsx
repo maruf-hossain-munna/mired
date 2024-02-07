@@ -13,7 +13,7 @@ export default function Home() {
   return (
     <main>
       <HeroArea />
-      <RunningSlider />
+      {/* <RunningSlider /> */}
       <ConsultationBookung />
       <DigitalSoluations />
       <Testimonials />

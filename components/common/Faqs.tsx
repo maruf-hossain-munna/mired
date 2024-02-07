@@ -10,7 +10,7 @@ import {
 
 const Faqs = () => {
     return (
-        <div className='py-20'>
+        <div id='faqs' className='py-20'>
             <Container>
                 <div>
                     <Heading

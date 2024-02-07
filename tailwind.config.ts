@@ -52,15 +52,25 @@ const config = {
           DEFAULT: "hsl(var(--card))",
           foreground: "hsl(var(--card-foreground))",
         },
+        skin : {
+          "blue-800" : "#420FB0",
+          "pink-300" : "#FF92B2",
+          "pink-200" : "#F5E3E9",
+          "yellow-600" : "#F7BE08",
+          "yellow-200" : "#F5EFD9",
+        }
       },
       fontFamily : {
-        'poppins' : ['Poppins', 'sens-serif'],
-        'clash' : ['ClashDisplay', 'sens-serif'],
+        clash_display : "var(--clash-display)",
+        manrope : "var(--manrope)",
+        poppins : "var(--poppins)",
+        montserrat : "var(--montserrat)",
       },
       borderRadius: {
         lg: "var(--radius)",
         md: "calc(var(--radius) - 2px)",
         sm: "calc(var(--radius) - 4px)",
+        10 : "10px",
       },
       keyframes: {
         "accordion-down": {
